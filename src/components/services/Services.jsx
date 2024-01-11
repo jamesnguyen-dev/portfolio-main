@@ -29,7 +29,7 @@ const Services = () => {
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
                         <h3 className="services__modal-title">Developer</h3>
                         <p className="services__modal-description">
-                            Over 3 years of experience in web development providing quality work.
+                            Over 5 years of experience in web development providing quality work.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -69,7 +69,7 @@ const Services = () => {
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
                         <h3 className="services__modal-title">Designer</h3>
                         <p className="services__modal-description">
-                            Over 2 years of experience in UI/UX design providing quality work.
+                            Over 3 years of experience in UI/UX design providing quality work.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -109,7 +109,7 @@ const Services = () => {
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
                         <h3 className="services__modal-title">Branding</h3>
                         <p className="services__modal-description">
-                            Over 3 years experience in branding providing quality work.
+                            Over 5 years experience in branding providing quality work.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
