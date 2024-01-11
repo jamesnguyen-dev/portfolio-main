@@ -4,10 +4,10 @@ const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Cyphr Sylph
+            James Nguyen
             <svg
-                width="36"
-                height="36"
+                width="34"
+                height="34"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
