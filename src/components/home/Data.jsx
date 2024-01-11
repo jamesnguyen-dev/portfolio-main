@@ -6,8 +6,8 @@ const Data = () => {
         <h1 className="home__title">
             James Nguyen
             <svg
-                width="34"
-                height="34"
+                width="20"
+                height="20"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,10 +56,10 @@ const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle">
-            Developer + Designer
+            Developer | Designer
         </h3>
         <p className="home__description">
-            Front-end developer dedicated to design and creative solutions.
+            Full stack developer dedicated to design and creative solutions.
         </p>
 
         <a href="#contact" className="button button--flex">

@@ -79,7 +79,7 @@ const Qualification = () => {
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Full-stack Software Developer</h3>
+                            <h3 className="qualification__title">Full Stack Software Developer</h3>
                             <span className="qualification__subtitle">Opportunity Home San Antonio</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
