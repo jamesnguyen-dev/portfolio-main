@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutBW.jpeg";
+import AboutImg from "../../assets/aboutProfile.jpeg";
 import CV from "../../assets/ResumeCV.pdf";
 import Info from "./Info";
 
@@ -14,7 +14,16 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I create applications highlighting minimal design and friendly UI/UX interfaces.
+                I am a full-stack developer based in Texas with a passion
+                for building digital programs. I have an interest for all things
+                launching apllications, from planning and designing to all the way to solving
+                real-life problems with code. When not online, I love to be home with
+                my two puppies, a husky and a toy poodle, love to game, 
+                and love to karaoke. 
+                I do post from time to time on my Instagram called &quot;
+                <a href="https://instagram.com/lazydawgs.co" className="about__description" target="_blank">lazydawgs.co</a>
+                &quot; which I plan to post more progress with my side business that include
+                stickers and apparel.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV
