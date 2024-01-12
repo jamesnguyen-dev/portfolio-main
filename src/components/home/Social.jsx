@@ -1,12 +1,12 @@
 import React from "react";
 import { FiGithub, FiLinkedin} from "react-icons/fi";
-import { SiLinktree } from "react-icons/si";
+import { LuFolderTree } from "react-icons/lu";
 
 const Social = () => {
     return (
         <div className="home__social">
             <a href="https://linktr.ee/devjamesnguyen" className="home__social-icon" target="_blank">
-                <SiLinktree />
+                <LuFolderTree />
             </a>
             <a href="https://www.github.com/jamesnguyen-dev" className="home__social-icon" target="_blank">
                 <FiGithub />
