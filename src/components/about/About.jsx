@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutProfile.jpeg";
+import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/ResumeCV.pdf";
 import Info from "./Info";
 
@@ -19,11 +19,10 @@ const About = () => {
                 launching apllications, from planning and designing to all the way to solving
                 real-life problems with code. When not online, I love to be home with
                 my two puppies, a husky and a toy poodle, love to game, 
-                and love to karaoke. 
-                I do post from time to time on my Instagram called &quot;
-                <a href="https://instagram.com/lazydawgs.co" className="about__description" target="_blank">lazydawgs.co</a>
-                &quot; which I plan to post more progress with my side business that include
-                stickers and apparel.
+                and love to karaoke.
+                I am starting a side business called "
+                <a href="https://instagram.com/lazydawgs.co" target="_blank">lazydawgs.co</a>" 
+                where I sell original designs for stickers and, later down the road, apparel.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV

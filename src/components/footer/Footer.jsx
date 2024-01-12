@@ -1,6 +1,7 @@
 import React from 'react';
 import "./footer.css";
-import { FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { SiLinktree } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -19,8 +20,8 @@ const Footer = () => {
                 </li>
             </ul>
             <div className="footer__social">
-                <a href="https://twitter.com/jamesnguyen9611" className="home__social-icon" target="_blank" rel="noreferrer">
-                    <FiTwitter />
+                <a href="https://linktr.ee/devjamesnguyen" className="home__social-icon" target="_blank" rel="noreferrer">
+                    <SiLinktree />
                 </a>
                 <a href="https://www.github.com/jamesnguyen-dev" className="home__social-icon" target="_blank" rel="noreferrer">
                     <FiGithub />
