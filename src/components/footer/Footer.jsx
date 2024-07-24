@@ -1,6 +1,7 @@
 import React from 'react';
 import "./footer.css";
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
+// eslint-disable-next-line 
 import { SiLinktree } from "react-icons/si";
 import { LuFolderTree } from "react-icons/lu";
 
@@ -30,6 +31,9 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/devjamesn/" className="home__social-icon" target="_blank" rel="noreferrer" >
                     <FiLinkedin />
                 </a>    
+            </div>
+            <div className='footer__copy'>
+                <p className="footer__copy">© 2024 James Nguyen. All rights reserved.</p>
             </div>
             <span className="footer__copy"></span>
         </div>

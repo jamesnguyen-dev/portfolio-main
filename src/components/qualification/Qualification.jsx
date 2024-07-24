@@ -18,18 +18,18 @@ const Qualification = () => {
             <div className="qualification__tabs">
                 <div className={toggleState === 1 ? "qualification__button button--flex qualification__active" 
                     : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
-                    <HiOutlineAcademicCap className="qualification__icon" />
-                    Education
+                    <HiOutlineBriefcase className="qualification__icon" />
+                    Experience
                 </div>
                 <div className={toggleState === 2 ? "qualification__button button--flex qualification__active" 
                     : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
-                    <HiOutlineBriefcase className="qualification__icon" />
-                    Experience
+                    <HiOutlineAcademicCap className="qualification__icon" />
+                    Education
                 </div>
             </div>
 
             <div className="qualification__sections">
-                <div className={toggleState === 1 ? "qualification__content qualification__content-active"
+                <div className={toggleState === 2 ? "qualification__content qualification__content-active"
                     : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
@@ -46,7 +46,7 @@ const Qualification = () => {
                         </div>
                     </div>
                 </div>
-                <div className={toggleState === 2 ? "qualification__content qualification__content-active"
+                <div className={toggleState === 1 ? "qualification__content qualification__content-active"
                     : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
