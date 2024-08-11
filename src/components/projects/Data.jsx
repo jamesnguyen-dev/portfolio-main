@@ -10,7 +10,7 @@ export const projectsData = [
         title: "Project 1",
         category: "A",
         description: "This is a description of project 1",
-        link: "https://www.example.com/project1",
+        link: "https://www.youtube.com",
     },
     {
         id: 2,

@@ -33,6 +33,12 @@
     border-radius: 1rem;
 }
 
+.project__description {
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
 .project__img {
     width: 295px;
     border-radius: 1rem;
@@ -46,7 +52,7 @@
 }
 
 .project__button {
-    color: var(--text-color);
+    color: var(--title-color);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;

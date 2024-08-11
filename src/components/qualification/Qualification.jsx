@@ -50,11 +50,11 @@ const Qualification = () => {
                     : "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">IT Service Desk Technician</h3>
-                            <span className="qualification__subtitle">Texas A&M University - Corpus Christi</span>
+                            <h3 className="qualification__title">Full Stack Software Developer</h3>
+                            <span className="qualification__subtitle">Opportunity Home San Antonio</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2018-2020
+                                2022-Present
                             </div>
                         </div>
                         <div>
@@ -79,11 +79,11 @@ const Qualification = () => {
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Full Stack Software Developer</h3>
-                            <span className="qualification__subtitle">Opportunity Home San Antonio</span>
+                            <h3 className="qualification__title">IT Service Desk Technician</h3>
+                            <span className="qualification__subtitle">Texas A&M University - Corpus Christi</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2022-Present
+                                2018-2020
                             </div>
                         </div>
                         <div>
